@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <input type="password" class="form1-control" name="password" id="password" placeholder="Enter Password"> 
                         </div>
                         <?php
-                            if(!empty($error)){
+                            if(!empty($error)) {
                                 echo '<div class="alert alert-danger" role="alert">'.$error.'</div>';
                             }
                         ?>
@@ -89,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+    <?php require_once "./include/footer.php"; ?>
 
 </body> 
 </html> 
