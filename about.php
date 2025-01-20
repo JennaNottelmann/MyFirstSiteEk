@@ -14,13 +14,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->´
+        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/logstyle.css" rel="stylesheet" />  
+        <link href="css/aboutstyle.css" rel="stylesheet" />  
     </head>
     <body class="d-flex flex-column ">
         <?php require_once "./include/navbar.php"; ?>
-        <section class=" py-5">
+        <section class="container py-5">
                 <div class="bg-light container px-6">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-6">

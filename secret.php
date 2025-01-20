@@ -55,7 +55,7 @@ if (isset($_SESSION['userid']) && isset($_SESSION['session'])) {
                 <p>Adresse: Bonnstraße 34, 45470 Mülheim an der Ruhr</p> 
                 <p>Was hier steht soll nur durch Login sichtbar sein</p>
                 <img src="assets/pic3.jpg" alt="" style="width: 340px; height: auto;">
-                <button type="submit" class="btn-logout btn btn-primary"><a href="logout.php">Abmelden</a></button>
+                <a href="include/logout.php"><button type="submit" class="btn-logout btn btn-primary">Abmelden</button></a>
                     
             </div> 
         </div> 

@@ -1,8 +1,6 @@
 <header class="py-5">
-<link rel="stylesheet" href="css/styles.css">
-<link href="css/logstyle.css" rel="stylesheet" />
 <div class="container px-5 pb-5">
-                    <div class="row gx-5 bg-light align-items-center">
+                    <div class="row gx-5 bg-light align-items-center p-4">
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
